@@ -22,7 +22,7 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshots/Desktop%20%20-%20Frontend%20Mentor%20-%20Four%20card%20feature%20section.jpg)
-![](./screenshots/Desktop%20%20-%20Frontend%20Mentor%20-%20Four%20card%20feature%20section.jpg)
+![](./screenshots/Mobile%20-%20Frontend%20Mentor%20-%20Four%20card%20feature%20section.jpg)
 
 ## My process
 
