@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+:root {
+    /* Fonts */
+    --text: 'Poppins', sans-serif;
+    /* Colors */
+    --red: #ea5353;
+    --cyan: #45d3d3;
+    --orange: #fcaf4a;
+    --blue: #549ef2;
+    --veryDarkBlue: #4c4e61;
+    --grayishBlue: #a3a5ae;
+    --shadow: #a3a5ae7a;
+    --veryLightGrey: #fafafa;
+    --white: #ffffff;
+    
+}
+
+
+html, body {
+    font-family: var(--text);
+    font-size: 15px;
+    font-weight: 200;
+    color: var(--veryDarkBlue);
+    background-color: var(--veryLightGrey);
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    padding: 2em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    text-align: center;
+}
+
+.container {
+    margin: .5em;
+    margin-bottom: 2em;
+}
+
+.uptitle {
+    font-size: 1.5rem;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: .5em;
+}
+
+.text {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: var(--grayishBlue);
+}
+
+.cardsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    padding: 2em;
+    border-radius: .5em;
+    background-color: var(--white);
+    box-shadow: 0 1em 2em .2em var(--shadow);
+    text-align: right;
+    margin: 2em 0 2em 0;
+    width: fit-content;
+    max-width: 330px;
+    max-height: fit-content;
+}
+
+.cardTitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: .8em;
+    text-align: left;
+}
+
+.cardText {
+    font-weight: 400;
+    color: var(--grayishBlue);
+    line-height: 1.5rem;
+    margin-bottom: 4em;
+    text-align: left;
+}
+
+.cardIcon {
+    text-align: right;
+}
+
+.supervisor {
+    border-top: .5em solid var(--cyan);
+    margin-bottom: 0;
+}
+
+.team {
+    border-top: .5em solid var(--red);
+}
+
+.karma {
+    border-top: .5em solid var(--orange);
+    margin-bottom: 0;
+}
+
+.calculator {
+    border-top: .5em solid var(--blue);
+}
+
+@media screen and (min-width: 1250px) {
+    .container {
+        max-width: fit-content;
+        margin: 0 13em 1em 13em;
+    }
+
+    .uptitle, .title {
+        font-size: 2rem;
+    }
+    
+    .text {
+        margin-top: 2em;
+        padding: 0 8em;
+    }
+
+    .card {
+        max-width: 330px;
+    }
+
+    .cardsContainer {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 2em;
+    }
+}
